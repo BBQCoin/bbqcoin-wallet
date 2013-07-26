@@ -3,8 +3,8 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	package="de.schildbach.wallet.bbqcoin"
 	android:installLocation="preferExternal"
-	android:versionCode="10010"
-	android:versionName="1.09" >
+	android:versionCode="10011"
+	android:versionName="1.091" >
 
 	<uses-sdk
 		android:minSdkVersion="8"
