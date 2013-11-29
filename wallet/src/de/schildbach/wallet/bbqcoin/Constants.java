@@ -72,8 +72,8 @@ public class Constants
 	public static final String PEER_DISCOVERY_IRC_CHANNEL_PROD = "#bbqcoin";
 	public static final String PEER_DISCOVERY_IRC_CHANNEL_TEST = "#bbqcoinTEST3";
 
-	private static final String BLOCKEXPLORER_BASE_URL_PROD = "http://bbq.cryptocoinexplorer.com//chain/BBQCoin";
-	private static final String BLOCKEXPLORER_BASE_URL_TEST = "http://bbq.cryptocoinexplorer.com//chain/BBQCoin";
+	private static final String BLOCKEXPLORER_BASE_URL_PROD = "http://darkgamex.ch:2751/chain/BBQCoin";
+	private static final String BLOCKEXPLORER_BASE_URL_TEST = "http://darkgamex.ch:2751/chain/BBQCoin";
 	public static final String BLOCKEXPLORER_BASE_URL = TEST ? BLOCKEXPLORER_BASE_URL_TEST : BLOCKEXPLORER_BASE_URL_PROD;
 
 	public static final String MIMETYPE_TRANSACTION = "application/x-ltctx";
@@ -105,12 +105,12 @@ public class Constants
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
 
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
-	public static final String SOURCE_URL = "https://github.com/bigdaub/bbqcoin-wallet";
-	public static final String BINARY_URL = "https://github.com/bigdaub/bbqcoin-wallet";
+	public static final String SOURCE_URL = "https://github.com/BBQCoin/bbqcoin-wallet";
+	public static final String BINARY_URL = "https://github.com/BBQCoin/bbqcoin-wallet";
 	public static final String CREDITS_LITECOINJ_URL = "http://code.google.com/p/bbqcoinj/";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
 	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?action=profile;u=45460";
-	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/TaylorSMinor";
+	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/BBQCoin";
 	public static final String AUTHOR_GOOGLEPLUS_URL = "https://plus.google.com/u/0/104428428880210022378";
 	public static final String MARKET_APP_URL = "market://details?id=%s";
 	public static final String WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";
