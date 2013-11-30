@@ -42,6 +42,10 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.preference.PreferenceManager;
 import android.text.format.DateUtils;
 import android.util.Log;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.widget.PopupWindow;
 import android.widget.Toast;
 
 import com.google.bbqcoin.core.Address;
@@ -53,6 +57,7 @@ import com.google.bbqcoin.store.WalletProtobufSerializer;
 import de.schildbach.wallet.bbqcoin.service.BlockchainService;
 import de.schildbach.wallet.bbqcoin.service.BlockchainServiceImpl;
 import de.schildbach.wallet.bbqcoin.util.CrashReporter;
+import de.schildbach.wallet.feathercoin.util.LinuxSecureRandom;
 import de.schildbach.wallet.bbqcoin.util.StrictModeWrapper;
 import de.schildbach.wallet.bbqcoin.util.WalletUtils;
 import de.schildbach.wallet.bbqcoin.R;
@@ -75,6 +80,7 @@ public class WalletApplication extends Application
 	@Override
 	public void onCreate()
 	{
+    new LinuxSecureRandom();
 		try
 		{
 			StrictModeWrapper.init();
